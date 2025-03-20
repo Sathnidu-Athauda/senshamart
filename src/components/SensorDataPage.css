@@ -1,0 +1,86 @@
+.sensor-data-page {
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #3c5a82;
+  margin-bottom: 20px;
+}
+
+.sensor-selection {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.sensor-selection label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3c5a82;
+}
+
+#sensor-dropdown {
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #3c5a82;
+  border-radius: 5px;
+  color: #3c5a82;
+  background-color: #ffffff;
+  margin-left: 10px;
+}
+
+.sensor-info {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sensor-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.divider {
+  border: none;
+  height: 2px;
+  background-color: #3c5a82;
+  margin: 20px 0;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.toggle-btn {
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: #3c5a82;
+  color: white;
+}
+
+.toggle-btn.active {
+  background-color: #f06e4b;
+}
+
+.toggle-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.sensor-chart {
+  max-height: 300px;
+}
